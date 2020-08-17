@@ -13,7 +13,7 @@ class Conn{
     private string $host = "localhost";
     private string $user = "root";
     private string $pass = "";
-    private string $dbname = "celke2";
+    private string $dbname = "";
     private int    $port = 3306;
     private object $connect;
 
