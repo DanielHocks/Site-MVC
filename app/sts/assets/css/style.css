@@ -1,0 +1,204 @@
+body {
+    min-height: 75rem;
+    padding-top: 5.2rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.descr-top{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(85%);
+    height: 1000px;
+    margin-top: -50px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    border-radius: 0px;
+    padding: 300px 0px 150px 0px;
+    font-family: 'Rowdies', cursive !important;
+    margin-bottom: 0rem !important;
+}
+
+.lead{
+    -webkit-text-stroke: 1px black;
+
+}
+.navbar{
+    padding: 10px;
+}
+
+.navbar-brand{
+    margin-right: 100px;
+}
+
+nav ul li{
+    margin-right: 80px;
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 991px) {
+    .navbar-nav li a:hover {
+        text-align: center;
+        width: 120px;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 5px;
+        background-color: white;
+        color: blue !important;
+
+    }
+}
+
+#logo{
+    width: 105px;
+    height: 70px;
+    margin-left: 40px;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 990px){
+    #logo{
+        width: 115px;
+        height: 70px;
+        margin-left: 90% !important;
+    }
+
+    .circulo{
+
+    }
+
+    .rodape{
+        text-align: center !important;
+    }
+
+    .rodape ul{
+        border-bottom: 1px solid white;
+    }
+
+    #contato2, #redeSocial, #barbeshop{
+        margin-top: 15px;
+    }
+
+    .titulo{
+        font-size: 3.8em;
+    }
+}
+
+.btn-outline-primary{
+    -webkit-text-stroke: 0px black;
+    padding: 10px;
+}
+
+.servicos{
+    height: auto;
+    border-radius: 0px;
+    margin-bottom: 0rem !important;
+    padding: 100px 0px 180px 0px;
+    background-color: white;
+}
+
+.circulo{
+    width: 140px;
+    height: 140px;
+    font-size: 52px;
+    padding-top: 24px;
+    color: blue;
+    box-shadow: 2px 8px 5px teal;
+    margin-top: 100px;
+}
+
+.centralizar{
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.desc-chamada{
+    background-image: url("../imagem/My Post.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white !important;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+}
+
+.contato{
+   background-color: #808080;
+   color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+}
+
+small{
+    color: white !important;
+}
+
+.link1{
+    top: -210px !important;
+    position: relative;
+    z-index: 5;
+}
+
+.link2{
+    top: -250px !important;
+    position: relative;
+    z-index: 5;
+}
+
+.link3{
+    top: -250px !important;
+    position: relative;
+    z-index: 5;
+}
+
+.link4{
+    top: -160px !important;
+    position: relative;
+    z-index: 5;
+}
+
+.rodape{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #343A40;
+    color: white;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+    height: auto;
+}
+
+.rodape ul li{
+    margin-bottom: 10px;
+}
+
+.rodape ul li a.link-rodape{
+    margin-left: 12px;
+    color: white;
+}
+
+.rodape ul li a.link-rodape:hover{
+    color: #0069D9;
+    text-decoration: none;
+}
+
+#facebook{
+    width: 30px !important;
+}
+
+#contato2, #redeSocial, #barbeshop{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
